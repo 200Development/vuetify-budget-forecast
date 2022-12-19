@@ -4,6 +4,7 @@ import MonthlyIncomeExpenseColumnChartVue from '@/components/MonthlyIncomeExpens
 import ExpensesByCategoryBubbleGraph from '@/components/ExpensesByCategoryBubbleGraph.vue';
 import ExpensesByCategoryScatterGraph from '@/components/ExpensesByCategoryScatterGraph.vue';
 import Accounts from '@/components/Accounts.vue';
+import Budget from '@/components/Budget.vue';
 </script>
 
 <template>
@@ -44,8 +45,8 @@ import Accounts from '@/components/Accounts.vue';
     </v-col>
 
     <v-col :key="6" cols="9" sm="9">
-      <v-card class="pa-2" height="300px" style="background: blue">
-
+      <v-card class="pa-2" height="300px">
+        <Budget></Budget>
       </v-card>
     </v-col>
 

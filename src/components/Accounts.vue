@@ -1,7 +1,7 @@
-<script setup lang="ts">import { Account } from '@/models/Account';
-import { ref } from 'vue';
+<script setup lang="ts">
+import Account from '../models/Account';
 
-const elevation = ref(3);
+
 var accounts: Account[] = [{
     id: 1,
     name: 'Wecu Checking',
@@ -14,7 +14,7 @@ var accounts: Account[] = [{
     id: 3,
     name: 'Marcus Savings',
     balance: 9317
-}]
+}];
 </script>
 
 <template>

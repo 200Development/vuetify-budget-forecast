@@ -1,5 +1,8 @@
 <template>
+  <v-container>
     <Line :data="data" :options="options" />
+  </v-container>
+   
   </template>
   
   <script lang="ts">
