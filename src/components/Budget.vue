@@ -45,14 +45,14 @@ var budgets: Budget[] = [{
 </script>
 
 <template>
-   
+    <v-container>
         <v-row>
             <v-col v-for="budget in budgets" :key="budget.id" cols="4">
-                <v-card>
-                    <span style="height: 20px;">{{ budget.name }}: {{ budget.allocation }}</span>
-                    
+                <v-card width="50%">
+                    <span style="height: 20px; width: 50%">{{ budget.name }}: {{ budget.allocation }}</span>
+                    <v-divider></v-divider>
                 </v-card>
             </v-col>
         </v-row>
-  
+    </v-container>
 </template>

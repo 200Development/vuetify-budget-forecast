@@ -18,15 +18,18 @@ var accounts: Account[] = [{
 </script>
 
 <template>
-    <div class="text-center">
-        <v-row>
-            <v-col v-for="account in accounts" :key="account.id" cols="12">
-                <v-card><span style="float: left; height: 20%;">{{account.name}} - {{account.balance}}</span></v-card>
-            </v-col>
-        </v-row>
-        <v-chip class="ma-2" color="primary" variant="outlined">
-            User Account
-            <v-icon end icon="mdi-account-outline"></v-icon>
-        </v-chip>
-    </div>
+    <v-container>
+        <div class="text-center">
+            <v-row>
+                <v-col v-for="account in accounts" :key="account.id" cols="12">
+                    <v-card><span style="float: left; height: 20%;">{{ account.name }} - {{ account.balance}}</span>
+                    </v-card>
+                </v-col>
+            </v-row>
+            <v-chip class="ma-2" color="primary" variant="outlined">
+                User Account
+                <v-icon end icon="mdi-account-outline"></v-icon>
+            </v-chip>
+        </div>
+    </v-container>
 </template>
