@@ -29,8 +29,8 @@ const data = {
     ],
     datasets: [
       {
-        label: 'Data One',
-        backgroundColor: '#f87979',
+        label: 'Monthly Spending',
+        backgroundColor: 'RGB(241, 196, 15)',
         data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
       }
     ]

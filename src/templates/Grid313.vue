@@ -11,7 +11,14 @@ import Budget from '@/components/Budget.vue';
   <v-row no-gutters>
     <v-col :key="1" cols="12" sm="4">
       <v-card class="pa-2" height="250px" outlined tile>
-        <ExpensesByCategoryBubbleGraph></ExpensesByCategoryBubbleGraph>
+        <v-container>
+          <ExpensesByCategoryBubbleGraph></ExpensesByCategoryBubbleGraph>
+        </v-container>
+       
+        <v-container>
+          <v-banner lines="one" text="Average Monthly Spending - $5,896">
+          </v-banner>
+        </v-container>
       </v-card>
     </v-col>
 
