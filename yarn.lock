@@ -221,6 +221,11 @@ commondir@^1.0.1:
   resolved "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz"
   integrity sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==
 
+core-js@^3.6.5:
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.26.1.tgz#7a9816dabd9ee846c1c0fe0e8fcad68f3709134e"
+  integrity sha512-21491RRQVzUn0GGM9Z1Jrpr6PNPxPi+Za8OM9q4tksTSnlbXXGKK1nXNg/QvwFYettXvSX6zWKCtHHfjN4puyA==
+
 csstype@^2.6.8:
   version "2.6.21"
   resolved "https://registry.npmjs.org/csstype/-/csstype-2.6.21.tgz"
@@ -641,6 +646,13 @@ vite@^3.0.9:
     rollup "^2.79.1"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vue-3-slider-component@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vue-3-slider-component/-/vue-3-slider-component-0.1.0.tgz#25b03f7b2e494fa31787c2224ab086bf107b90a4"
+  integrity sha512-pce4gBdNYTSPwJ9Ihc76PUho15Hzexsjeqb0MuDSfcdZtKmICqafNVtbuh0BOG3kVwsJDE2oCVVkmgk488Zikw==
+  dependencies:
+    core-js "^3.6.5"
 
 vue-chartjs@^5.0.1:
   version "5.0.1"
